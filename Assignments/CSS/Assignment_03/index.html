@@ -13,7 +13,7 @@
     body>div:nth-child(1){
       position: fixed;
       border-radius: 50%;
-      border:15px solid red;
+      border:15px solid #898787;
       height: 250px;
       width: 250px;
       top: 0;
@@ -26,7 +26,7 @@
     body>div:nth-child(2){
       position: fixed;
       border-radius: 50%;
-      border:12px solid #656363;
+      border:12px solid #bb2020;
       height: 230px;
       width: 230px;
       top: 0;
@@ -36,12 +36,56 @@
       margin: auto;
     }
 
+    body> section{
+      margin: 0;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      z-index: -1;
+    }
+
+    body> section:nth-child(3)>div{
+    background-color: #bb70b2;
+    }
+
+    body> section:nth-child(4)>div{
+      background-color: #6798c1;
+    }
+
+    body> section:nth-child(5)>div{
+      background-color: #c2858f;
+    }
+
+  body> section > div{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 237px;
+    width: 237px;
+    background-color: greenyellow;
+  }
+
+  body> section> div> h2{
+    position: absolute;
+    margin: 100px 100px 100px 100px;
+
+  }
+
+  body> section:nth-child(5) > div> h2{
+    top: -20px;
+    left: -30px;
+  }
+
   </style>
 </head>
 <body>
   <div></div>
   <div></div>
-  <!--<section>
+  <section>
     <div><h2>Hello</h2></div>
   </section>
   <section>
@@ -49,6 +93,6 @@
   </section>
   <section>
     <div><h2>Institute<br>Of<br> Software<br>Engineering</h2></div>
-  </section>-->
+  </section>
 </body>
 </html>
