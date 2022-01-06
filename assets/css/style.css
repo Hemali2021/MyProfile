@@ -13,11 +13,89 @@
 }
 
 /* --------------- first view ------------------ */
-
-.first{
-    margin-bottom: 1%;
-    background-image: url('../images/main pic.jpg');
+.main{
+    margin:0 0 1% 0;
+    background-image: url("../images/main pic.jpg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: -15% 20%;
+    font-size: 15px;
 }
+
+
+nav{
+    position: relative;
+    height: auto;
+    top: 4%;
+    z-index: 1;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links{
+    flex: 1;
+    max-width: 56%;
+    text-align: right;
+    position: relative;
+    font-size: 1.3em;
+    left: 20%;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2.6%;
+}
+
+.nav-links ul li a{
+    color: #cdcbcb;
+    position: relative;
+    text-decoration: none;
+    font-family: "Vollkorn SC", serif;
+    font-size: 0.8em;
+}
+
+.hello{
+    position: relative;
+    max-width: 50%;
+    top: 5vh;
+    left: 20%;
+}
+
+.hello h2{
+    position: relative;
+    left: 6vw;
+    color: rgba(255, 255, 255, 0.47);
+    font-size: 10vw;
+}
+
+.hello h3{
+    display: inline;
+    position: relative;
+    left: 15vw;
+    color: rgba(206, 142, 43, 0.94);
+    font-size: 6vw;
+}
+
+.hello > p{
+    bottom: 14vh;
+    position: relative;
+    left: 29vw;
+    color: rgba(23, 60, 168, 0.94);
+    font-size: 6vw;
+}
+/*
+.hello> h3{
+    font-size: 13vh;
+    color: orange;
+    position: relative;
+    bottom: 23vh;
+    right: 14vw;
+}
+
+.hello> p{
+    font-size: 10vh;
+
+}*/
