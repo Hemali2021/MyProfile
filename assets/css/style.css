@@ -4,6 +4,7 @@
 }
 
 .view{
+    margin:0;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -14,7 +15,6 @@
 
 /* --------------- first view ------------------ */
 .main{
-    margin:0 0 1% 0;
     background-image: url("../images/main pic.jpg");
     background-repeat: no-repeat;
     background-attachment: inherit;
@@ -86,16 +86,91 @@ nav{
     color: rgba(23, 60, 168, 0.94);
     font-size: 6vw;
 }
-/*
-.hello> h3{
-    font-size: 13vh;
-    color: orange;
-    position: relative;
-    bottom: 23vh;
-    right: 14vw;
+
+/*----------------------------------------------*/
+
+.about{
+    background-color: #251a0e;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: -15% 20%;
+    font-size: 15px;
 }
 
-.hello> p{
-    font-size: 10vh;
+.about> h2{
+    font-size: 5vh;
+    position: relative;
+    display: inline;
+    left: 28px;
+    top: 19px;
+}
 
-}*/
+
+hr {
+    left: 13vw;
+    position: relative;
+    width: 20vw;
+    box-sizing: content-box;
+    height: 2px;
+    overflow: visible;
+    background-color: wheat;
+}
+
+.content01{
+    display: flex;
+    position: absolute;
+    gap: 4vw;
+    top: 14vh;
+    left: 9vw;
+}
+.my-image{
+    width: 26vw;
+    height: 70vh;
+    background-color: rebeccapurple;
+    top: 3vh;
+    position: relative;
+    border-radius: 16px;
+}
+
+.my-image > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.my-details{
+    position: relative;
+    width: 52vw;
+    height: 75vh;
+    background-color: #8968416E;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: #fdfdfd;
+}
+
+.my-details> button{
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+    top: 60vh;
+    left: 60vw;
+}
+.my-details>h1{
+    font-size: 5vh;
+    font-family: Rockwell Condensed;
+    position: relative;
+    display: inline;
+    left: 334px;
+    top: 27px;
+    color: #ffffff8c;
+}
+.my-details>h2{
+    font-size: 4vh;
+    font-family: Rockwell Condensed;
+    position: relative;
+    display: inline;
+    top: 13vh;
+    color: #c9781496;
+    right: 55px;
+    font-weight: normal;
+}
