@@ -163,7 +163,7 @@ hr {
     font-family: Rockwell Condensed;
     position: relative;
     display: inline;
-    left: 334px;
+    left: 270px;
     top: 27px;
     color: #ffffff8c;
 }
@@ -184,7 +184,7 @@ hr {
     display: inline;
     top: 13vh;
     color: rgba(234, 233, 220, 0.59);
-    left: 22px;
+    left: 20px;
     font-weight: normal;
 
 }
@@ -195,7 +195,7 @@ hr {
     display: inline;
     top: 18vh;
     color: rgba(234, 233, 220, 0.59);
-    left: 22px;
+    left: 96px;
     font-weight: normal;
 }
 .my-details>p3{
@@ -215,7 +215,7 @@ hr {
     position: absolute;
     top: 63vh;
     left: 20vw;
-    font-size: 23px;
+    font-size: 18px;
     border-radius: 15px;
     background-color: rgba(244, 138, 13, 0.37);
     border-color: rgba(244, 138, 13, 0.37);
@@ -268,7 +268,7 @@ hr {
     font-family: Rockwell;
 }
 .skill>hr{
-    left: 35vw;
+    left: 22vw;
     position: relative;
     width: 20vw;
     box-sizing: content-box;
@@ -276,4 +276,71 @@ hr {
     overflow: visible;
     top:1vh;
     background-color: rgba(255, 255, 255, 0.51);
+}
+.skill-list{
+    position: relative;
+    width: 88vw;
+    height: 68vh;
+    left: 6vw;
+    top: 12vh;
+    background-color: rgba(91, 73, 56, 0.53);
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: #010101;
+}
+.image-1{
+    width: 15vw;
+    height: 31vh;
+    left: 15vw;
+    background-color: rebeccapurple;
+    top: -38vh;
+    position: relative;
+    border-radius: 16px;
+}
+.image-1>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.image-2{
+    width: 15vw;
+    height: 31vh;
+    left: 33vw;
+    background-color: rebeccapurple;
+    top: -69vh;
+    position: relative;
+    border-radius: 16px;
+}
+.image-2>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.image-3{
+    width: 15vw;
+    height: 31vh;
+    left: 51vw;
+    background-color: rebeccapurple;
+    top: -100vh;
+    position: relative;
+    border-radius: 16px;
+}
+.image-3>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.image-4{
+    width: 15vw;
+    height: 31vh;
+    left: 69vw;
+    background-color: rebeccapurple;
+    top: -131vh;
+    position: relative;
+    border-radius: 16px;
+}
+.image-4>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
