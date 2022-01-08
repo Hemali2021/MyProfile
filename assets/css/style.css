@@ -509,17 +509,21 @@ hr {
     border-color: #fdfdfd;
 }
 
-label1{
+form{
+    right: 10vw;
+}
+
+.label1{
     font-size: 24px;
     color: rgba(255, 255, 255, 0.62);
 }
-input[type="text1"] {
+.text1 {
     width: 20vw;
     border: 2px chocolate;
     border-radius: 4px;
 }
 
-label2{
+.label2{
     font-size: 24px;
     color: rgba(255, 255, 255, 0.62);
 }
@@ -530,11 +534,12 @@ input[type="email"] {
     border-radius: 4px;
 }
 
-label3{
+.label3{
     font-size: 24px;
     color: rgba(255, 255, 255, 0.62);
 }
-input[type="text2"] {
+
+.text2{
     width: 20vw;
     border: 2px chocolate;
     border-radius: 4px;
@@ -545,3 +550,15 @@ input[type="submit"] {
     border: 2px chocolate;
     border-radius: 4px;
 }
+
+/*input[type="text"] {
+    position: relative;
+    left: 100px;
+}
+
+input[type="email"]{
+    position: relative;
+    left: 100px;
+}*/
+
+
