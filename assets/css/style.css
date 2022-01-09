@@ -360,6 +360,25 @@ hr {
     top:1vh;
     background-color: rgba(255, 255, 255, 0.51);
 }
+
+.slide-left{
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    background-color: #404040;
+    border: unset;
+}
+.slide-right{
+    width: 30px;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    background-color: #404040;
+    border: unset;
+}
 .skill-list{
     position: relative;
     width: 88vw;
@@ -551,6 +570,75 @@ hr {
     top:1vh;
     background-color: rgba(255, 255, 255, 0.51);
 }
+.project>main{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    width: 85vw;
+    border: 2px solid white;
+    top: 5vh;
+    left: 8vw;
+}
+.all-projects{
+    position: absolute;
+    width: 180vw;
+    height: 78vh;
+    top: 1vh;
+    left: 1vh;
+    border: 1px solid greenyellow;
+    display: flex;
+    gap: 3vw;
+
+
+    animation: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*animation*/
+
+@keyframes slide {
+    0%{
+        left: 0;
+    }
+    40%{
+        left: -30%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+
+.pro01{
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    top: 3vh;
+    border: 1px solid red;
+}
+.all-projects>div{
+    position: relative;
+    border: 1px solid blue;
+    width: 25vw;
+    height: 70vh;
+    top: 3vh;
+}
+.proj-photo{
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    height: 30vh;
+    width: 23vw;
+    background-color: #8f6a6a;
+}
+.proj-photo>img{
+    width: 23vw;
+    height: 30vh;
+}
+.all-projects>div{
+    color: white;
+}
+
 /*......................................................*/
 
 .contact{
@@ -582,7 +670,7 @@ hr {
 }
 .content02{
     position: relative;
-    width: 84vw;
+    width: 82vw;
     height: 94vh;
     left: 8vw;
     top: 19vh;
