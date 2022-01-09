@@ -177,7 +177,7 @@ hr {
     left:10px;
     font-weight: normal;
 }
-.my-details>p1{
+.p1{
     font-size: 4vh;
     font-family: Rockwell Condensed;
     position: relative;
@@ -188,7 +188,7 @@ hr {
     font-weight: normal;
 
 }
-.my-details>p2{
+.p2{
     font-size: 4vh;
     font-family: Rockwell Condensed;
     position: relative;
@@ -198,7 +198,7 @@ hr {
     left: 96px;
     font-weight: normal;
 }
-.my-details>p3{
+.p3{
     font-size: 4vh;
     font-family: Rockwell Condensed;
     position: relative;
@@ -247,6 +247,89 @@ hr {
     overflow: visible;
     top:1vh;
     background-color: rgba(255, 255, 255, 0.51);
+}
+ .line{
+    position: absolute;
+    width: 10vw;
+    height: 2px;
+    border: 2px solid #FFFEFE;
+    transform: rotate(0.58deg);
+    display: inline-block;
+}
+
+ .line1{
+    left: 33vw;
+    top: 5vh;
+}
+
+.line2{
+    left: 43vw;
+    top: 20vh;
+}
+.line3{
+    left: 43vw;
+    top: 35vh;
+}
+.line4{
+    left: 33vw;
+    top: 50vh;
+}
+.line5{
+    left: 33vw;
+    top: 65vh;
+}
+.line6{
+    left: 43vw;
+    top: 80vh;
+}
+.lineX{
+    position: absolute;
+    display: inline-block;
+    top: 5vh;
+    left: 43vw;
+    width: 6px;
+    height: 75vh;
+    background-color: white;
+}
+.Education>section{
+    position: relative;
+    height: 90vh;
+    width: 80vw;
+    top: 4vh;
+    left: 10vw;
+}
+.box{
+    position: absolute;
+    height: 10vh;
+    width: 20vw;
+    border: 1px solid white;
+}
+.box-one{
+    left: 12vw;
+    top: 1vh;
+}
+.box-two{
+    left: 54vw;
+    top: 15vh;
+}
+.box-three{
+    left: 54vw;
+    top: 30vh;
+}
+.box-four{
+    left: 12vw;
+    top: 45vh;
+}
+.box-five{
+    left: 12vw;
+    top: 60vh;
+}
+.box-six{
+    left: 54vw;
+    top: 75vh;
+}
+.box > p{
+    color: white;
 }
 
 /*......................................................*/
@@ -510,7 +593,9 @@ hr {
 }
 
 form{
-    right: 10vw;
+    left: 16vw;
+    top: 35vh;
+    position: relative;
 }
 
 .label1{
@@ -518,9 +603,15 @@ form{
     color: rgba(255, 255, 255, 0.62);
 }
 .text1 {
-    width: 20vw;
-    border: 2px chocolate;
-    border-radius: 4px;
+    width: 53vw;
+    height: 5vh;
+    background-color: rgba(253, 253, 253, 0.76);
+    border: 2px black;
+    border-radius: 8px;
+    position: relative;
+    font-size: 24px;
+    left: 0;
+    top: 2vh;
 }
 
 .label2{
@@ -528,10 +619,15 @@ form{
     color: rgba(255, 255, 255, 0.62);
 }
 input[type="email"] {
-    width: 20vw;
-    right: 10vw;
-    border: 2px chocolate;
-    border-radius: 4px;
+    width: 53vw;
+    height: 5vh;
+    background-color: rgba(253, 253, 253, 0.76);
+    border: 2px black;
+    border-radius: 8px;
+    position: relative;
+    font-size: 24px;
+    left: 0;
+    top: 2vh;
 }
 
 .label3{
@@ -540,15 +636,32 @@ input[type="email"] {
 }
 
 .text2{
-    width: 20vw;
-    border: 2px chocolate;
-    border-radius: 4px;
+    width: 53vw;
+    height: 5vh;
+    background-color: rgba(253, 253, 253, 0.76);
+    border: 2px black;
+    border-radius: 8px;
+    position: relative;
+    font-size: 24px;
+    left: 0;
+    top: 2vh;
 }
 
 input[type="submit"] {
     width: 6vw;
     border: 2px chocolate;
     border-radius: 4px;
+}
+.text3{
+    width: 53vw;
+    height: 5vh;
+    background-color: rgba(253, 253, 253, 0.76);
+    border: 2px black;
+    border-radius: 8px;
+    position: relative;
+    font-size: 24px;
+    left: 0;
+    top: 2vh;
 }
 
 /*input[type="text"] {
