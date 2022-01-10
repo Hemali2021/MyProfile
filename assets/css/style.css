@@ -654,7 +654,7 @@ hr {
     background-attachment: inherit;
     background-position: -15% 20%;
     font-size: 15px;
-    height: 129vh;
+    height: 154vh;
 }
 .contact>h1{
     color: rgba(255, 255, 255, 0.51);
@@ -680,7 +680,7 @@ hr {
     width: 82vw;
     height: 94vh;
     left: 8vw;
-    top: 19vh;
+    top: 7vh;
     background-color: rgba(137, 104, 65, 0.29);
     border: 3px solid rgba(255, 255, 255, 0.51);
 
@@ -794,7 +794,7 @@ input[type="email"] {
 input[type="submit"] {
     width: 10vw;
     border: 2px solid rgba(19, 19, 18, 0.68);
-    border-radius: 4px;
+    border-radius: 10px;
     position: relative;
     height: 6vh;
     left: 18vw;
@@ -802,6 +802,94 @@ input[type="submit"] {
     color: rgba(255, 255, 255, 0.53);
     background-color: #584d3e;
     font-family: Rockwell;
+}
+.so-links1{
+    width: 4vw;
+    height: 9vh;
+    background-color: rgba(215, 106, 24, 0.82);
+    top: 12vh;
+    position: relative;
+    border-radius: 206px;
+    left: 35vw;
+}
+.so-links1>img{
+    width: 100%;
+    height: 100%;
+}
+.so-links2{
+    width: 4vw;
+    height: 9vh;
+    background-color: rgba(215, 106, 24, 0.82);
+    top: 3vh;
+    position: relative;
+    border-radius: 206px;
+    left: 40vw;
+}
+.so-links2>img{
+    width: 100%;
+    height: 100%;
+}
+.so-links3{
+    width: 4vw;
+    height: 9vh;
+    background-color: rgba(215, 106, 24, 0.82);
+    top: -6vh;
+    position: relative;
+    border-radius: 206px;
+    left: 45vw;
+}
+.so-links3>img{
+    width: 100%;
+    height: 100%;
+}
+.so-links4{
+    width: 4vw;
+    height: 9vh;
+    background-color: rgba(215, 106, 24, 0.82);
+    top: -15vh;
+    position: relative;
+    border-radius: 206px;
+    left: 50vw;
+}
+.so-links4>img{
+    width: 100%;
+    height: 100%;
+}
+.so-links5{
+    width: 4vw;
+    height: 9vh;
+    background-color: rgba(215, 106, 24, 0.82);
+    top: -24vh;
+    position: relative;
+    border-radius: 206px;
+    left: 55vw;
+}
+.so-links5>img{
+    width: 100%;
+    height: 100%;
+}
+.end{
+    position: relative;
+    width: 35vw;
+    height: 10vh;
+    top: -15vh;
+    left: 33vw;
+    color: white;
+}
+.end>h1{
+    position: relative;
+    left: 0vw;
+    top: -7vh;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: normal;
+}
+.end>h2{
+    position: relative;
+    left: 6vw;
+    top: -8vh;
+    font-family: Raleway;
+    font-weight: normal;
 }
 
 
