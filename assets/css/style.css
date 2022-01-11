@@ -83,16 +83,75 @@ nav{
 }
 
 .hello > p{
-    bottom: 14vh;
+    display: inline-block;
     position: relative;
-    left: 46vw;
+    left: 38vw;
     color: #f7f8fc7a;
     font-size: 4vw;
     font-family: rockwell;
-    top: 4vh;
+    top: 14vh;
 }
 
-/*----------------------------------------------*/
+@media all and (min-width: 600px) and (max-width: 840px){
+    .nav-links {
+        max-width: none;
+        width: 70vw;
+        left: 0;
+    }
+
+    .hello {
+        max-width: none;
+        width: max-content;
+        top: 31vh;
+        height: max-content;
+        left: 17%;
+    }
+
+    .hello h2 {
+        top: 0;
+    }
+    .hello h3 {
+        top: 0;
+    }
+    .hello > p {
+        top: 0;
+    }
+
+}
+
+@media all and (min-width: 360px) and (max-width: 600px){
+
+    .nav-links> ul{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 4vw;
+        float: right;
+        text-align: left;
+    }
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 5px 2.6%;
+        width: 22vw;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    .hello {
+        top: 13vh;
+    }
+    .hello h2 {
+        top: 0;
+    }
+    .hello h3 {
+        top: 0;
+    }
+    .hello > p {
+        top: 0;
+    }
+}
+
+/*---------------------2 nd view-------------------------*/
 
 .about{
     background-color: #1d150b;
@@ -225,7 +284,37 @@ hr {
     background-color: rgba(244, 138, 13, 0.37);
     border-color: rgba(244, 138, 13, 0.37);
 }
-/*......................................................*/
+@media all and (min-width: 1000px) and (max-width: 2000px){
+    .my-details{
+        width: 59%;
+        height: 77vh;
+    }
+    .my-details>h1 {
+        left: 38%;
+        top: 29px;
+    }
+    .my-details>h2 {
+        left: 0;
+        font-size: 4vh;
+    }
+}
+    .p1{
+        font-size: 4vh;
+        left: 20px;
+    }
+    .p2{
+        font-size: 4vh;
+        left: 10vw;
+    }
+    .p3{
+        left: 3%;
+    }
+    .my-details>button{
+        left: 37%;
+        top: 65vh;
+    }
+
+    /*......................................................*/
 
 .Education{
     background-color: #1d150b;
