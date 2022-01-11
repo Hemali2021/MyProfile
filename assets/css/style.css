@@ -257,7 +257,7 @@ hr {
     position: absolute;
     width: 10vw;
     height: 2px;
-    border: 2px solid #FFFEFE;
+    border: 2px solid rgba(255, 254, 254, 0.56);
     transform: rotate(0.58deg);
     display: inline-block;
 }
@@ -294,7 +294,7 @@ hr {
     left: 43vw;
     width: 6px;
     height: 75vh;
-    background-color: white;
+    background-color: rgba(242, 137, 13, 0.47);
 }
 .Education>section{
     position: relative;
@@ -306,11 +306,11 @@ hr {
 .box{
     position: absolute;
     height: 10vh;
-    width: 20vw;
+    width: 26vw;
     border: 1px solid white;
 }
 .box-one{
-    left: 12vw;
+    left: 6vw;
     top: 1vh;
 }
 .box-two{
@@ -322,20 +322,48 @@ hr {
     top: 30vh;
 }
 .box-four{
-    left: 12vw;
+    left: 6vw;
     top: 45vh;
 }
 .box-five{
-    left: 12vw;
+    left: 6vw;
     top: 60vh;
 }
 .box-six{
     left: 54vw;
     top: 75vh;
 }
-.box > p{
-    color: white;
+.p-1{
+    font-size: 3vh;
+    font-family: Rockwell Condensed;
+    position: relative;
+    display: inline;
+    top: 1vh;
+    color: rgba(234, 233, 220, 0.59);
+    left: 128px;
+    font-weight: normal;
 }
+.pa-2{
+    font-size: 3vh;
+    font-family: Rockwell Condensed;
+    position: relative;
+    display: inline;
+    top: 5vh;
+    color: rgba(234, 233, 220, 0.59);
+    left: 71px;
+    font-weight: normal;
+}
+.p-2{
+    font-size: 3vh;
+    font-family: Rockwell Condensed;
+    position: relative;
+    display: inline;
+    top: 5vh;
+    color: rgba(234, 233, 220, 0.59);
+    left: -14px;
+    font-weight: normal;
+}
+
 
 /*......................................................*/
 
@@ -603,7 +631,7 @@ hr {
 /*animation*/
 
 @keyframes slide {
-    0%{
+    20%{
         left: 0;
     }
     40%{
@@ -644,6 +672,16 @@ hr {
     font-size: 20px;
     font-family: Rockwell;
     color: rgba(255, 254, 254, 0.85);
+}
+.p-01{
+    font-size: 10vh;
+    font-family: Rockwell;
+    color: rgba(172, 123, 67, 0.65);
+}
+.p-02{
+    font-size: 6vh;
+    font-family: Rockwell;
+    color: rgba(255, 254, 254, 0.47);
 }
 
 /*......................................................*/
@@ -806,7 +844,7 @@ input[type="submit"] {
 .so-links1{
     width: 4vw;
     height: 9vh;
-    background-color: rgba(215, 106, 24, 0.82);
+    background-color: rgba(215, 106, 24, 0.66);
     top: 12vh;
     position: relative;
     border-radius: 206px;
@@ -819,7 +857,7 @@ input[type="submit"] {
 .so-links2{
     width: 4vw;
     height: 9vh;
-    background-color: rgba(215, 106, 24, 0.82);
+    background-color: rgba(215, 106, 24, 0.66);
     top: 3vh;
     position: relative;
     border-radius: 206px;
@@ -832,7 +870,7 @@ input[type="submit"] {
 .so-links3{
     width: 4vw;
     height: 9vh;
-    background-color: rgba(215, 106, 24, 0.82);
+    background-color: rgba(215, 106, 24, 0.66);
     top: -6vh;
     position: relative;
     border-radius: 206px;
@@ -845,7 +883,7 @@ input[type="submit"] {
 .so-links4{
     width: 4vw;
     height: 9vh;
-    background-color: rgba(215, 106, 24, 0.82);
+    background-color: rgba(215, 106, 24, 0.66);
     top: -15vh;
     position: relative;
     border-radius: 206px;
@@ -858,7 +896,7 @@ input[type="submit"] {
 .so-links5{
     width: 4vw;
     height: 9vh;
-    background-color: rgba(215, 106, 24, 0.82);
+    background-color: rgba(215, 106, 24, 0.66);
     top: -24vh;
     position: relative;
     border-radius: 206px;
@@ -874,7 +912,7 @@ input[type="submit"] {
     height: 10vh;
     top: -15vh;
     left: 33vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.4);
 }
 .end>h1{
     position: relative;
