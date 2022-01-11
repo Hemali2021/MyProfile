@@ -8,7 +8,40 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
   <style>
-
+    section{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 400px;
+        justify-content: space-evenly;
+        height: 560px;
+        top: 60px;
+        margin-left: -170px;
+        left: 0;
+    }
+    section> div{
+        border: 1px solid black;
+        height: 80px;
+        width: 250px;
+    }
+    section> div> h2{
+        padding-left: 40px;
+        padding-top: 5px;
+    }
+    body> section> div> .fa{
+        position: relative;
+        float: right;
+        bottom: 48px;
+        right: 25px;
+        font-size: 30px;
+    }
+    section> div:hover{
+        background-color: #7d7dc4;
+        margin-left: 150px;
+        transition-property: all;
+        transition-duration: 1s;
+        color: #ffffff;
+    }
   </style>
 
 </head>
