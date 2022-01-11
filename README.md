@@ -1,5 +1,4 @@
-# This is My Profile <h1>
-## *Institute of Software Engineering.* <h2>
+# This is My Testing Website <h1>
 
-![GitHub Logo](assets/images/softE.png)
+![GitHub Logo](assets/images/pg1.PNG)
 
